@@ -1,4 +1,4 @@
-
+import Feed from '@components/Feed';
 
 const Home = () => {
   return (
@@ -15,6 +15,7 @@ const Home = () => {
        </p>
 
        {/*feed*/}
+       <Feed />
     </section>
   )
 }
