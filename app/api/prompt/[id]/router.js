@@ -35,7 +35,7 @@ export const PATCH = async (request, { params }) => {
         await existingPrompt.save();
 
         return new Response(JSON.stringify(existingPrompt), { status: 200 });
-        
+
     } catch (error) {
         return new Response("Error Updating Prompt", { status: 500 });
     }
