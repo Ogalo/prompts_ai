@@ -4,6 +4,7 @@
 
 const nextConfig = {
   experimental: {
+   
     serverComponentsExternalPackages: ["mongoose"],
   },
   images: {
@@ -15,6 +16,7 @@ const nextConfig = {
         pathname: '/**',
       },
     ],
+
   },
   webpack(config) {
     config.experiments = {
